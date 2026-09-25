@@ -1,0 +1,461 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architectural Services &amp; Turnkey Practice | Interior Creative Design</title>
+  <meta name="description" content="Explore our bespoke interior architecture specializations: Residential Estates, Modular Kitchens, Luxury Bedrooms, and Commercial Architecture.">
+  <link rel="icon" type="image/jpeg" href="assets/images/logo.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ==================== DISTINCT INNER HEADER ==================== -->
+  <header id="site-header" class="site-header inner-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-logo" aria-label="Interior Creative Design Home">
+        <img src="assets/images/logo-light.png" alt="Interior Creative Design Official Brand Logo" class="logo-img logo-light" width="210" height="124">
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link active">Services</a></li>
+          <li class="nav-item"><a href="projects.html" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="process.html" class="nav-link">Our Process</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-action">
+        <a href="contact.html" class="btn btn-gold btn-header">
+          <span>Book a Consultation</span>
+          <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div id="mobile-nav" class="mobile-nav" aria-hidden="true">
+      <div class="mobile-nav-inner">
+        <div class="mobile-nav-header">
+          <img src="assets/images/logo-light.png" alt="Interior Creative Design Logo" class="mobile-logo">
+          <button id="mobile-close" class="mobile-close" aria-label="Close navigation menu">&times;</button>
+        </div>
+        <ul class="mobile-nav-list">
+          <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+          <li><a href="about.html" class="mobile-nav-link">About Us</a></li>
+          <li><a href="services.html" class="mobile-nav-link">Services</a></li>
+          <li><a href="projects.html" class="mobile-nav-link">Projects</a></li>
+          <li><a href="process.html" class="mobile-nav-link">Our Process</a></li>
+          <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        </ul>
+        <div class="mobile-nav-footer">
+          <a href="contact.html" class="btn btn-gold btn-block mobile-cta">Book a Consultation</a>
+        </div>
+      </div>
+    </div>
+    <div id="mobile-overlay" class="mobile-overlay"></div>
+  </header>
+
+  <!-- ==================== EDITORIAL HERO ==================== -->
+  <section class="page-hero-editorial" aria-label="Services Catalog Header">
+    <div class="container">
+      <div class="editorial-hero-grid">
+        <div class="editorial-hero-content reveal-fade-right">
+          <div class="editorial-badge">THE PRACTICE &bull; TURNKEY SERVICES</div>
+          <h1 class="editorial-hero-title">Architectural Services &amp; Turnkey Delivery.</h1>
+          <blockquote class="editorial-hero-quote">
+            â€œFrom raw volumetric blueprints to the final ceremonial reveal, we provide a holistic turnkey discipline that honors your budget, time, and emotional peace.â€
+          </blockquote>
+          <div class="breadcrumbs">
+            <a href="index.html">Home</a>
+            <span class="sep">&bull;</span>
+            <span class="current">Services Catalog</span>
+          </div>
+        </div>
+
+        <div class="editorial-hero-visual reveal-fade-left">
+          <div class="editorial-hero-img-box">
+            <img src="assets/images/banner-services.jpg" alt="Interior Creative Design Services showcase" class="editorial-hero-img">
+          </div>
+          <div class="editorial-hero-accent-frame"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== INTERACTIVE SERVICE CATALOG (SPLIT VIEW) ==================== -->
+  <section class="service-catalog-section" aria-label="Interactive Service Catalog">
+    <div class="container">
+      
+      <div class="section-header text-center reveal-fade-up">
+        <div class="section-tag-wrapper justify-center">
+          <span class="section-tag">CATALOG DOSSIERS</span>
+        </div>
+        <h2 class="section-title">Explore Our Six Specialized Disciplines</h2>
+        <p class="section-subtitle">Navigate through our dedicated practice areas to examine deliverables, typical timelines, and specifications.</p>
+      </div>
+
+      <div class="service-catalog-container">
+        
+        <!-- Sticky Sidebar Navigation -->
+        <aside class="catalog-sidebar reveal-fade-right">
+          <a href="#service-residential" class="catalog-nav-btn active">
+            <span>01 Residential Design</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+          <a href="#service-luxury" class="catalog-nav-btn">
+            <span>02 Luxury Home Estates</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+          <a href="#service-kitchen" class="catalog-nav-btn">
+            <span>03 Modular Kitchens</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+          <a href="#service-bedroom" class="catalog-nav-btn">
+            <span>04 Bedroom &amp; Living</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+          <a href="#service-commercial" class="catalog-nav-btn">
+            <span>05 Commercial Offices</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+          <a href="#service-planning" class="catalog-nav-btn">
+            <span>06 Space Planning &amp; 3D</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </aside>
+
+        <!-- Right Side: Detailed Service Dossiers -->
+        <div class="catalog-content-stream">
+          
+          <!-- Dossier 1: Residential -->
+          <article id="service-residential" class="catalog-dossier-card reveal-fade-up">
+            <img src="assets/images/service-1-residential.jpg" alt="Residential Interior Design" class="dossier-header-img" loading="lazy">
+            <span class="editorial-badge">DISCIPLINE 01</span>
+            <h3 class="service-title" style="font-size: 2.2rem; margin-bottom: 12px;">Residential Interior Design</h3>
+            <p class="service-desc" style="font-size: 1.05rem;">
+              Complete spatial transformation for private residences, townhomes, and luxury apartments. We choreograph living rituals to balance acoustic quietness, functional storage joinery, and breathtaking aesthetic value.
+            </p>
+            <div class="dossier-meta-bar">
+              <span class="dossier-meta-item"><strong>Typical Timeline:</strong> 8â€“14 Weeks</span>
+              <span class="dossier-meta-item"><strong>Engagement:</strong> Turnkey / Full-Scope</span>
+              <span class="dossier-meta-item"><strong>Project Scale:</strong> 2,000 â€“ 10,000+ Sq.Ft</span>
+            </div>
+            <h4 class="modal-subheading">Turnkey Deliverables</h4>
+            <div class="service-bullets">
+              <div class="service-bullet-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Comprehensive CAD spatial plans, reflected ceiling plans, and MEP coordination</span></div>
+              <div class="service-bullet-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Custom millwork design, walk-in dressing rooms, and floating joinery</span></div>
+              <div class="service-bullet-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Curated European furniture sourcing, bespoke upholstery, and white-glove staging</span></div>
+            </div>
+            <a href="contact.html" class="btn btn-gold mt-3"><span>Inquire For Residential Project</span></a>
+          </article>
+
+          <!-- Dossier 2: Luxury Home Estates -->
+          <article id="service-luxury" class="catalog-dossier-card reveal-fade-up">
+            <img src="assets/images/service-2-luxury.jpg" alt="Luxury Home Interiors" class="dossier-header-img" loading="lazy">
+            <span class="editorial-badge">DISCIPLINE 02</span>
+            <h3 class="service-title" style="font-size: 2.2rem; margin-bottom: 12px;">Luxury Home Interiors &amp; Penthouses</h3>
+            <p class="service-desc" style="font-size: 1.05rem;">
+              Monumental penthouses, private villas, and heritage manors designed with rare monolithic stones, bookmatched marble, bespoke bronze screens, and discreet smart-home automation.
+            </p>
+            <div class="dossier-meta-bar">
+              <span class="dossier-meta-item"><strong>Typical Timeline:</strong> 12â€“20 Weeks</span>
+              <span class="dossier-meta-item"><strong>Engagement:</strong> Haute Architecture Turnkey</span>
+              <span class="dossier-meta-item"><strong>Supervision:</strong> Dedicated Senior Partner</span>
+            </div>
+            <h4 class="modal-subheading">Turnkey Deliverables</h4>
+            <div class="service-bullets">
+              <div class="service-bullet-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Direct quarry marble selection with bookmatched stone slab dry-lay</span></div>
+              <div class="service-bullet-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Sculptural architectural staircases, wine cellars, and ceiling coffers</span></div>
+              <div class="service-bullet-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Private art curation, museum-grade illumination, and fine styling</span></div>
+            </div>
+            <a href="contact.html" class="btn btn-gold mt-3"><span>Inquire For Luxury Estate</span></a>
+          </article>
+
+          <!-- Dossier 3: Modular Kitchens -->
+          <article id="service-kitchen" class="catalog-dossier-card reveal-fade-up">
+            <img src="assets/images/service-3-kitchen.jpg" alt="Modular Kitchen Architecture" class="dossier-header-img" loading="lazy">
+            <span class="editorial-badge">DISCIPLINE 03</span>
+            <h3 class="service-title" style="font-size: 2.2rem; margin-bottom: 12px;">Modular Kitchen Design &amp; Culinary Ateliers</h3>
+            <p class="service-desc" style="font-size: 1.05rem;">
+              Culinary spaces combining Italian minimalist elegance with German engineering precision. Motorized soft-close drawer mechanisms, anti-scratch nano surfaces, and concealed butler pantries.
+            </p>
+            <div class="dossier-meta-bar">
+              <span class="dossier-meta-item"><strong>Typical Timeline:</strong> 6â€“10 Weeks</span>
+              <span class="dossier-meta-item"><strong>Hardware:</strong> Blum Motorized / Hettich</span>
+              <span class="dossier-meta-item"><strong>Warranty:</strong> 10-Year Craft Guarantee</span>
+            </div>
+            <h4 class="modal-subheading">Turnkey Deliverables</h4>
+            <div class="service-bullets">
+              <div class="service-bullet-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>3D ergonomic work-triangle flow simulation and storage mapping</span></div>
+              <div class="service-bullet-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Continuous quartz/porcelain waterfall counters and seamless induction integration</span></div>
+              <div class="service-bullet-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg><span>Integrated ambient golden task illumination and bespoke bar cabinets</span></div>
+            </div>
+            <a href="contact.html" class="btn btn-gold mt-3"><span>Inquire For Kitchen Atelier</span></a>
+          </article>
+
+          <!-- Dossier 4: Bedroom & Living -->
+          <article id="service-bedroom" class="catalog-dossier-card reveal-fade-up">
+            <img src="assets/images/service-4-bedroom-living.jpg" alt="Bedroom and Living Design" class="dossier-header-img" loading="lazy">
+            <span class="editorial-badge">DISCIPLINE 04</span>
+            <h3 class="service-title" style="font-size: 2.2rem; margin-bottom: 12px;">Bedroom &amp; Living Room Suites</h3>
+            <p class="service-desc" style="font-size: 1.05rem;">
+              Sanctuary master suites with walk-in dressing enclosures and conversational living salons curated for deep relaxation, acoustic comfort, and sophisticated hosting.
+            </p>
+            <a href="contact.html" class="btn btn-gold mt-3"><span>Inquire For Bedroom &amp; Living Suites</span></a>
+          </article>
+
+          <!-- Dossier 5: Commercial -->
+          <article id="service-commercial" class="catalog-dossier-card reveal-fade-up">
+            <img src="assets/images/service-5-commercial.jpg" alt="Commercial Interiors" class="dossier-header-img" loading="lazy">
+            <span class="editorial-badge">DISCIPLINE 05</span>
+            <h3 class="service-title" style="font-size: 2.2rem; margin-bottom: 12px;">Office &amp; Commercial Interiors</h3>
+            <p class="service-desc" style="font-size: 1.05rem;">
+              Flagship corporate headquarters, private equity salons, and executive conference centers engineered to inspire teams, empower focus, and project brand prestige.
+            </p>
+            <a href="contact.html" class="btn btn-gold mt-3"><span>Inquire For Commercial Project</span></a>
+          </article>
+
+          <!-- Dossier 6: Space Planning -->
+          <article id="service-planning" class="catalog-dossier-card reveal-fade-up">
+            <img src="assets/images/service-6-consultation.jpg" alt="Space Planning and Consultation" class="dossier-header-img" loading="lazy">
+            <span class="editorial-badge">DISCIPLINE 06</span>
+            <h3 class="service-title" style="font-size: 2.2rem; margin-bottom: 12px;">Space Planning &amp; Architectural Advisory</h3>
+            <p class="service-desc" style="font-size: 1.05rem;">
+              Pre-construction structural review, photorealistic 4K visual walkthroughs, MEP engineering review, and detailed contractor Bill of Quantities (BOQ).
+            </p>
+            <a href="contact.html" class="btn btn-gold mt-3"><span>Inquire For Space Planning</span></a>
+          </article>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== ENGAGEMENT COMPARISON TABLE ==================== -->
+  <section class="section" aria-label="Engagement Models Comparison">
+    <div class="container">
+      <div class="section-header text-center reveal-fade-up">
+        <div class="section-tag-wrapper justify-center">
+          <span class="section-tag">FLEXIBLE ENGAGEMENT</span>
+        </div>
+        <h2 class="section-title">Service Engagement Models</h2>
+        <p class="section-subtitle">Choose the scope of studio involvement that aligns with your construction readiness.</p>
+      </div>
+
+      <div class="comparison-table-wrap reveal-fade-up">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Scope Deliverable</th>
+              <th>Design &amp; 3D Advisory</th>
+              <th class="highlight-col">Full Turnkey Atelier (Recommended)</th>
+              <th>Architectural Consulting</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Laser Site Survey &amp; CAD Layouts</strong></td>
+              <td>Included</td>
+              <td><strong>Included &bull; Precision 3D Laser</strong></td>
+              <td>Client Provided</td>
+            </tr>
+            <tr>
+              <td><strong>Photorealistic 4K Visual Renderings</strong></td>
+              <td>2 Iterations Included</td>
+              <td><strong>Unlimited Refinements</strong></td>
+              <td>1 Concept Pass</td>
+            </tr>
+            <tr>
+              <td><strong>Material Procurement &amp; Quarry Sourcing</strong></td>
+              <td>Specifications Only</td>
+              <td><strong>White-Glove Direct Sourcing</strong></td>
+              <td>Advisory Only</td>
+            </tr>
+            <tr>
+              <td><strong>Bespoke Millwork &amp; Cabinet Fabrication</strong></td>
+              <td>Shop Drawings Only</td>
+              <td><strong>Fabricated &amp; Installed</strong></td>
+              <td>Review Only</td>
+            </tr>
+            <tr>
+              <td><strong>On-Site Construction Supervision</strong></td>
+              <td>Bi-Weekly Reviews</td>
+              <td><strong>Daily Dedicated Project Director</strong></td>
+              <td>Milestone Checks</td>
+            </tr>
+            <tr>
+              <td><strong>Handover Warranty</strong></td>
+              <td>N/A</td>
+              <td><strong>10-Year Craftsmanship Guarantee</strong></td>
+              <td>N/A</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== INTERACTIVE INVESTMENT & TIMELINE ESTIMATOR ==================== -->
+  <section class="section" style="background-color: var(--color-light-gray);" aria-label="Investment Estimator">
+    <div class="container">
+      <div class="estimator-card reveal-fade-up">
+        <div class="estimator-grid">
+          
+          <div class="estimator-inputs">
+            <span class="section-tag text-gold">INTERACTIVE PLANNING</span>
+            <h3 style="font-family: var(--font-serif); font-size: 2.2rem; color: #fff;">Project Timeline &amp; Scope Estimator</h3>
+            <p style="color: #A0A0A5; font-size: 0.9rem;">Select your project type and approximate square footage to view estimated delivery timelines.</p>
+
+            <div class="form-group">
+              <label for="est-type" class="form-label">Project Type</label>
+              <select id="est-type" class="form-select">
+                <option value="residential" selected>Residential Villa / Apartment</option>
+                <option value="penthouse">Luxury Penthouse Renovation</option>
+                <option value="kitchen">Modular Kitchen Atelier</option>
+                <option value="commercial">Commercial Corporate Office</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="est-size" class="form-label">Approximate Area (Sq.Ft)</label>
+              <select id="est-size" class="form-select">
+                <option value="small">Under 2,500 Sq.Ft</option>
+                <option value="medium" selected>2,500 â€“ 5,000 Sq.Ft</option>
+                <option value="large">5,000 â€“ 10,000 Sq.Ft</option>
+                <option value="estate">10,000+ Sq.Ft (Private Estate)</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="estimator-result-box">
+            <span class="editorial-badge">ESTIMATED PRODUCTION WINDOW</span>
+            <div id="est-result-timeline" class="estimator-result-val">10 â€“ 14 Weeks</div>
+            <p id="est-result-desc" style="color: #C0C0C8; font-size: 0.9rem; line-height: 1.6; margin-bottom: 20px;">
+              Includes 3D visual approval, custom millwork fabrication, Italian stone setting, and white-glove turnkey handover.
+            </p>
+            <a href="contact.html" class="btn btn-gold btn-block"><span>Request Formal Project Scope</span></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CALL TO ACTION BANNER ==================== -->
+  <section class="cta-banner-section" aria-label="Book Consultation Banner">
+    <div class="container">
+      <div class="cta-banner-box reveal-fade-up">
+        <div class="cta-banner-text">
+          <span class="section-tag text-gold">COMMISSION A PRIVATE ATELIER SERVICE</span>
+          <h2 class="cta-banner-title">Ready to Begin Your Interior Transformation?</h2>
+          <p class="cta-banner-subtitle">Our design directors will prepare custom schematics and material swatches tailored to your floor plan.</p>
+        </div>
+        <div class="cta-banner-actions">
+          <a href="contact.html" class="btn btn-gold">
+            <span>Book a Consultation</span>
+            <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="projects.html" class="btn btn-outline-white"><span>View Projects</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer" aria-label="Site Footer">
+    <div class="footer-gold-bar"></div>
+    <div class="container footer-container">
+      <div class="footer-grid">
+        <div class="footer-col brand-col">
+          <a href="index.html" class="footer-logo-link" aria-label="Interior Creative Design Home">
+            <img src="assets/images/logo-light.png" alt="Interior Creative Design Official Brand Logo" class="footer-logo" width="220" height="130">
+          </a>
+          <p class="footer-brand-desc">
+            Interior Creative Design is a distinguished architectural interior atelier. We curate timeless residences, modern culinary centers, and inspiring commercial headquarters.
+          </p>
+          <div class="footer-social-links">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a>
+            <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Pinterest"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="9" x2="12" y2="18"></line><path d="M8 12a4 4 0 1 1 8 0c0 2.2-1.8 4-4 4a2 2 0 0 1-2-2"></path><circle cx="12" cy="12" r="10"></circle></svg></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Our Studio</a></li>
+            <li><a href="services.html">Design Services</a></li>
+            <li><a href="projects.html">Curated Projects</a></li>
+            <li><a href="process.html">Our 4-Step Process</a></li>
+            <li><a href="contact.html">Private Consultation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Residential Interior Design</a></li>
+            <li><a href="services.html">Luxury Home Interiors</a></li>
+            <li><a href="services.html">Modular Kitchen Design</a></li>
+            <li><a href="services.html">Bedroom &amp; Living Room Design</a></li>
+            <li><a href="services.html">Office &amp; Commercial Interiors</a></li>
+            <li><a href="services.html">Space Planning &amp; Consultation</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4 class="footer-heading">Studio Contact</h4>
+          <div class="footer-contact-block">
+            <p><strong>Concierge:</strong><br><a href="tel:+18004567890">+1 (800) 456-7890</a> [Editable]</p>
+            <p><strong>Inquiries:</strong><br><a href="mailto:concierge@interiorcreativedesign.com">concierge@interiorcreativedesign.com</a> [Editable]</p>
+            <p><strong>Atelier:</strong><br>Suite 400, Luxury Design District<br>Metro City, 10001 [Editable]</p>
+            <p><strong>WhatsApp Support:</strong><br><a href="https://wa.me/18004567890" target="_blank" rel="noopener noreferrer">+1 800 456 7890</a> [Editable]</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">&copy; 2026 Interior Creative Design. All Rights Reserved.</p>
+        <div class="footer-legal">
+          <a href="contact.html">Privacy Policy</a>
+          <span class="sep">&bull;</span>
+          <a href="contact.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <aside class="floating-whatsapp" aria-label="Chat on WhatsApp">
+    <a href="https://wa.me/18004567890?text=Hello%20Interior%20Creative%20Design%2C%20I%20would%20like%20to%20inquire%20about%20your%20services." 
+       target="_blank" rel="noopener noreferrer" class="whatsapp-btn" aria-label="Direct WhatsApp Consultation">
+      <span class="whatsapp-pulse"></span>
+      <span class="whatsapp-tooltip">Chat with Our Design Team</span>
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.711 2.598 2.664-.698c.969.584 1.761.888 2.796.888 3.182 0 5.768-2.587 5.768-5.766.001-3.182-2.585-5.775-5.768-5.775zm3.376 8.21c-.141.398-.822.766-1.139.814-.316.048-.711.08-2.072-.484-1.636-.677-2.678-2.359-2.759-2.468-.08-.109-.658-.876-.658-1.671 0-.795.418-1.186.566-1.346.148-.161.323-.201.43-.201.108 0 .216.001.311.006.101.005.236-.038.369.281.139.333.475 1.159.516 1.243.041.084.068.183.013.292-.054.108-.082.176-.162.27-.081.095-.17.212-.243.285-.081.08-.166.168-.071.332.095.163.421.695.903 1.124.621.553 1.144.724 1.307.805.163.081.258.072.354-.039.096-.111.411-.479.52-.643.109-.163.217-.137.366-.082.149.055.945.446 1.107.527.163.081.271.122.311.19.041.068.041.396-.1.794zM12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.981-1.399C8.423 21.494 10.153 22 12 22c5.523 0 10-4.477 10-10S17.523 2 12 2z"/></svg>
+    </a>
+  </aside>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
+
